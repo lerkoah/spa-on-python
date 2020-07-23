@@ -5,7 +5,7 @@ Usage:
 spectra, wavelength, title = read_spa(filepath)
 ```
 
-This python function is based on [LoadSpreta](https://la.mathworks.com/matlabcentral/fileexchange/57904-loadspectra) from matlab. It allows working with FTIR spectrums.
+This python function is based on [LoadSprecta](https://la.mathworks.com/matlabcentral/fileexchange/57904-loadspectra) from matlab. It allows working with FTIR spectrums.
 
 ## Example
 For importing a lot of file you can use ``pathlib``:
