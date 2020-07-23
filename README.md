@@ -2,7 +2,7 @@
 
 Usage:
 ```python
-spectra, wavenumber, title = read_spa(filepath)
+spectra, wavelength, title = read_spa(filepath)
 ```
 
 This python function is based on [LoadSpreta](https://la.mathworks.com/matlabcentral/fileexchange/57904-loadspectra) from matlab. It allows working with FTIR spectrums.
@@ -19,7 +19,7 @@ paths = [str(x) for x in list(pathlib.Path(basepath).rglob('*.spa'))]
 print('Files detected: {}'.format(len(paths)))
 
 for path in paths:
-  spectra_tmp, wavenumber_tmp, title_tmp = read_spa(path)
+  spectra_tmp, wavelength_tmp, title_tmp = read_spa(path)
 ```
 
 # License
