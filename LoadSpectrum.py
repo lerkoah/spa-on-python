@@ -18,7 +18,7 @@ def read_spa(filepath):
         f.seek(576)
         Max_Wavenum=np.fromfile(f, np.single, 1)[0]
         Min_Wavenum=np.fromfile(f, np.single, 1)[0]
-        print(Min_Wavenum, Max_Wavenum, Spectrum_Pts)
+        # print(Min_Wavenum, Max_Wavenum, Spectrum_Pts)
         Wavenumbers = np.flip(np.linspace(Min_Wavenum, Max_Wavenum, Spectrum_Pts))
 
         f.seek(288);
